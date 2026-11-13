@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "app": "Rooted Ready Coloring Book Creator",
   "version": "1.0.0",
@@ -107,4 +108,339 @@
     },
     "install_location": "bin/"
   }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+{
+  "app": "Rooted Ready Coloring Book Creator",
+  "version": "1.0.0",
+  "python_version": "3.12",
+  "icon_url": "https://github.com/RootedReady/ebook_formatter/raw/refs/heads/main/assets/app_icon.ico",
+  "dependencies": [
+    {
+      "name": "reportlab",
+      "version": "4.4.4",
+      "required": true,
+      "arch_specific": true,
+      "wheel": "reportlab-4.4.4-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/reportlab/reportlab-4.4.4-py3-none-any.whl",
+    },
+    {
+      "name": "pillow",
+      "version": "12.0.0",
+      "required": true,
+      "arch_specific": true,
+      "wheel_x64": "pillow-12.0.0-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "pillow-12.0.0-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/pillow/pillow-12.0.0-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/pillow/pillow-12.0.0-cp312-cp312-win32.whl"
+    },
+    {
+      "name": "customtkinter",
+      "version": "5.2.2",
+      "required": true,
+      "wheel": "customtkinter-5.2.2-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/customtkinter/customtkinter-5.2.2-py3-none-any.whl"
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "required": true,
+      "wheel": "et_xmlfile-2.0.0-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/et_xmlfile/et_xmlfile-2.0.0-py3-none-any.whl"
+    },		
+    {
+      "name": "openpyxl",
+      "version": "3.1.2",
+      "required": true,
+      "wheel": "openpyxl-3.1.2-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/main/packages/openpyxl/openpyxl-3.1.2-py2.py3-none-any.whl"
+    },
+    {
+      "name": "svglib",
+      "version": "1.6.0",
+      "required": false,
+      "wheel": "svglib-1.6.0-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/svglib/svglib-1.6.0-py3-none-any.whl"
+    },
+    {
+      "name": "cairosvg",
+      "version": "2.8.2",
+      "required": false,
+      "wheel": "cairosvg-2.8.2-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairosvg/cairosvg-2.8.2-py3-none-any.whl"
+    },
+    {
+      "name": "cairocffi",
+      "version": "1.7.1",
+      "required": false,
+      "wheel": "cairocffi-1.7.1-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cairocffi-1.7.1-py3-none-any.whl"
+    },
+    {
+      "name": "cffi",
+      "version": "2.0.0",
+      "required": false,
+      "arch_specific": true,
+      "wheel_x64": "cffi-2.0.0-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "cffi-2.0.0-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cffi-2.0.0-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cffi-2.0.0-cp312-cp312-win32.whl"
+    }
+  ],
+  "runtime_libs": {
+    "description": "GTK/Cairo native libraries for SVG support (optional)",
+    "required_for": ["svglib", "cairosvg", "cairocffi"],
+    "optional": true,
+    "x64": {
+      "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x64/",
+      "files": [
+        "libcairo-2.dll",
+        "libcairo-gobject-2.dll",
+        "libpng16-16.dll",
+        "libffi-7.dll",
+        "zlib1.dll",
+        "libglib-2.0-0.dll",
+        "libgobject-2.0-0.dll",
+        "libfontconfig-1.dll"
+      ]
+    },
+    "x86": {
+      "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x86/",
+      "files": [
+        "libcairo-2.dll",
+        "libcairo-gobject-2.dll",
+        "libpng16-16.dll",
+        "libffi-7.dll",
+        "zlib1.dll",
+        "libglib-2.0-0.dll",
+        "libgobject-2.0-0.dll",
+        "libfontconfig-1.dll"
+      ]
+    },
+    "install_location": "bin/"
+  }
+=======
+{
+  "app": "Rooted Ready Coloring Book Creator",
+  "version": "1.0.0",
+  "python_version": "3.12",
+  "icon_url": "https://github.com/RootedReady/ebook_formatter/raw/refs/heads/main/assets/app_icon.ico",
+  "dependencies": [
+    {
+      "name": "reportlab",
+      "version": "4.4.4",
+      "required": true,
+      "arch_specific": true,
+      "wheel": "reportlab-4.4.4-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/reportlab/reportlab-4.4.4-py3-none-any.whl",
+    },
+    {
+      "name": "pillow",
+      "version": "12.0.0",
+      "required": true,
+      "arch_specific": true,
+      "wheel_x64": "pillow-12.0.0-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "pillow-12.0.0-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/pillow/pillow-12.0.0-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/pillow/pillow-12.0.0-cp312-cp312-win32.whl"
+    },
+    {
+      "name": "customtkinter",
+      "version": "5.2.2",
+      "required": true,
+      "wheel": "customtkinter-5.2.2-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/customtkinter/customtkinter-5.2.2-py3-none-any.whl"
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "required": true,
+      "wheel": "et_xmlfile-2.0.0-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/et_xmlfile/et_xmlfile-2.0.0-py3-none-any.whl"
+    },		
+    {
+      "name": "openpyxl",
+      "version": "3.1.2",
+      "required": true,
+      "wheel": "openpyxl-3.1.2-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/main/packages/openpyxl/openpyxl-3.1.2-py2.py3-none-any.whl"
+    },
+    {
+      "name": "svglib",
+      "version": "1.6.0",
+      "required": false,
+      "wheel": "svglib-1.6.0-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/svglib/svglib-1.6.0-py3-none-any.whl"
+    },
+    {
+      "name": "cairosvg",
+      "version": "2.8.2",
+      "required": false,
+      "wheel": "cairosvg-2.8.2-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairosvg/cairosvg-2.8.2-py3-none-any.whl"
+    },
+    {
+      "name": "cairocffi",
+      "version": "1.7.1",
+      "required": false,
+      "wheel": "cairocffi-1.7.1-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cairocffi-1.7.1-py3-none-any.whl"
+    },
+    {
+      "name": "cffi",
+      "version": "2.0.0",
+      "required": false,
+      "arch_specific": true,
+      "wheel_x64": "cffi-2.0.0-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "cffi-2.0.0-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cffi-2.0.0-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cffi-2.0.0-cp312-cp312-win32.whl"
+    }
+  ],
+  "runtime_libs": {
+    "description": "GTK/Cairo native libraries for SVG support (optional)",
+    "required_for": ["svglib", "cairosvg", "cairocffi"],
+    "optional": true,
+    "x64": {
+      "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x64/",
+      "files": [
+        "libcairo-2.dll",
+        "libcairo-gobject-2.dll",
+        "libpng16-16.dll",
+        "libffi-7.dll",
+        "zlib1.dll",
+        "libglib-2.0-0.dll",
+        "libgobject-2.0-0.dll",
+        "libfontconfig-1.dll"
+      ]
+    },
+    "x86": {
+      "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x86/",
+      "files": [
+        "libcairo-2.dll",
+        "libcairo-gobject-2.dll",
+        "libpng16-16.dll",
+        "libffi-7.dll",
+        "zlib1.dll",
+        "libglib-2.0-0.dll",
+        "libgobject-2.0-0.dll",
+        "libfontconfig-1.dll"
+      ]
+    },
+    "install_location": "bin/"
+  }
+>>>>>>> f4adcca6c7da46d4500a9bf46588c91cc5abd0d3
+=======
+{
+  "app": "Rooted Ready Coloring Book Creator",
+  "version": "1.0.0",
+  "python_version": "3.12",
+  "icon_url": "https://github.com/RootedReady/ebook_formatter/raw/refs/heads/main/assets/app_icon.ico",
+  "dependencies": [
+    {
+      "name": "reportlab",
+      "version": "4.4.4",
+      "required": true,
+      "arch_specific": true,
+      "wheel": "reportlab-4.4.4-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/reportlab/reportlab-4.4.4-py3-none-any.whl",
+    },
+    {
+      "name": "pillow",
+      "version": "12.0.0",
+      "required": true,
+      "arch_specific": true,
+      "wheel_x64": "pillow-12.0.0-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "pillow-12.0.0-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/pillow/pillow-12.0.0-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/pillow/pillow-12.0.0-cp312-cp312-win32.whl"
+    },
+    {
+      "name": "customtkinter",
+      "version": "5.2.2",
+      "required": true,
+      "wheel": "customtkinter-5.2.2-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/customtkinter/customtkinter-5.2.2-py3-none-any.whl"
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "required": true,
+      "wheel": "et_xmlfile-2.0.0-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/et_xmlfile/et_xmlfile-2.0.0-py3-none-any.whl"
+    },		
+    {
+      "name": "openpyxl",
+      "version": "3.1.2",
+      "required": true,
+      "wheel": "openpyxl-3.1.2-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/main/packages/openpyxl/openpyxl-3.1.2-py2.py3-none-any.whl"
+    },
+    {
+      "name": "svglib",
+      "version": "1.6.0",
+      "required": false,
+      "wheel": "svglib-1.6.0-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/svglib/svglib-1.6.0-py3-none-any.whl"
+    },
+    {
+      "name": "cairosvg",
+      "version": "2.8.2",
+      "required": false,
+      "wheel": "cairosvg-2.8.2-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairosvg/cairosvg-2.8.2-py3-none-any.whl"
+    },
+    {
+      "name": "cairocffi",
+      "version": "1.7.1",
+      "required": false,
+      "wheel": "cairocffi-1.7.1-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cairocffi-1.7.1-py3-none-any.whl"
+    },
+    {
+      "name": "cffi",
+      "version": "2.0.0",
+      "required": false,
+      "arch_specific": true,
+      "wheel_x64": "cffi-2.0.0-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "cffi-2.0.0-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cffi-2.0.0-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_coloring_book/raw/refs/heads/main/packages/cairocffi/cffi-2.0.0-cp312-cp312-win32.whl"
+    }
+  ],
+  "runtime_libs": {
+    "description": "GTK/Cairo native libraries for SVG support (optional)",
+    "required_for": ["svglib", "cairosvg", "cairocffi"],
+    "optional": true,
+    "x64": {
+      "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x64/",
+      "files": [
+        "libcairo-2.dll",
+        "libcairo-gobject-2.dll",
+        "libpng16-16.dll",
+        "libffi-7.dll",
+        "zlib1.dll",
+        "libglib-2.0-0.dll",
+        "libgobject-2.0-0.dll",
+        "libfontconfig-1.dll"
+      ]
+    },
+    "x86": {
+      "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x86/",
+      "files": [
+        "libcairo-2.dll",
+        "libcairo-gobject-2.dll",
+        "libpng16-16.dll",
+        "libffi-7.dll",
+        "zlib1.dll",
+        "libglib-2.0-0.dll",
+        "libgobject-2.0-0.dll",
+        "libfontconfig-1.dll"
+      ]
+    },
+    "install_location": "bin/"
+  }
+>>>>>>> f4adcca6c7da46d4500a9bf46588c91cc5abd0d3
+>>>>>>> Stashed changes
 }
